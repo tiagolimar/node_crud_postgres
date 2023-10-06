@@ -1,5 +1,6 @@
 import fastify from "fastify";
 import postgres from "postgres";
+import './DB/db.js';
 
 const server = fastify();
 
